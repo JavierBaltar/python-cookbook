@@ -7,7 +7,7 @@ fileCount = 0
 dirCount = 0
 
 for root, dirs, files in os.walk(PATH):
-    print('Looking in:',root)
+    print('Browsing:',root)
     for directories in dirs:
         dirCount += 1
     for Files in files:
